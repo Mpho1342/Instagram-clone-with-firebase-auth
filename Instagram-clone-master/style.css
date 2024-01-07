@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.material-icons-outlined {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+}
+
+nav {
+  background-color: white;
+  height: 54px;
+  border-bottom: #dbdbdb 1px solid;
+  display: flex;
+  justify-content: center;
+}
+.inner-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 975px;
+}
+
+.logo {
+  width: 100px;
+}
+.search-input {
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+.profile-pic {
+  width: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.margin-left {
+  margin-left: 20px;
+}
+
+.posts {
+  max-width: 975px;
+  display: flex;
+  flex-direction: column;
+}
+.post {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  max-width: 600px;
+}
+.post img {
+  width: 100%;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+
+
+#search-btn {
+  background-color: #3498db; 
+  color: white; 
+  padding: 5px 15px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  
+}
+
+#search-btn:hover {
+  background-color: #1e87d4;
+}
